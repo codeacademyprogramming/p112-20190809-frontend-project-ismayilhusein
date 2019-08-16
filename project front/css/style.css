@@ -3,11 +3,11 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Roboto Condensed", sans-serif;
 }
 
 body {
   overflow-x: hidden;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 ::-moz-selection {
@@ -156,7 +156,6 @@ body {
 
 /*naviqation*/
 #nav-bar {
-  font-family: "Roboto Condensed", sans-serif;
   background: #1a1919;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -878,7 +877,6 @@ form.example button {
   line-height: 24px;
   margin-bottom: 15px;
   text-transform: uppercase;
-  font-family: "Roboto Condensed", sans-serif;
   color: #212121;
   margin: 0 0 26px;
   font-weight: 700;
@@ -950,7 +948,6 @@ form.example button {
 .general .item-body h4 {
   font-size: 20px;
   margin-bottom: 7px;
-  font-family: "Roboto Condensed", sans-serif;
   color: #212121 !important;
   margin: 0 0 13px;
   font-weight: 700;
@@ -1087,7 +1084,6 @@ form.example button {
   font-size: 30px;
   line-height: 28px;
   margin-bottom: 25px;
-  font-family: "Roboto Condensed", sans-serif;
   margin: 0 0 26px;
   font-weight: 700;
 }
@@ -1128,7 +1124,6 @@ form.example button {
   font-size: 60px;
   color: #ffffff;
   margin-bottom: 6px;
-  font-family: "Roboto Condensed", sans-serif;
   margin: 0 0 26px;
   font-weight: 700;
 }
@@ -1172,5 +1167,685 @@ form.example button {
   font-weight: 400;
   margin: 0;
   display: block;
+}
+
+#web-design {
+  background-image: url("http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/bg/cta-bg.jpg");
+  background-size: cover;
+  padding: 100px 0;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+#web-design .development {
+  text-align: center;
+}
+
+#web-design .development .sec-title .imp-div {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#web-design .development .sec-title .imp-div h2 {
+  font-size: 30px;
+  line-height: 24px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0 0 26px;
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#web-design .development .sec-title .imp-div p {
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #fff;
+  margin: 0 0 26px;
+}
+
+#web-design .development .join-now {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ff3115;
+  color: #ffffff;
+  font-weight: 500;
+  min-width: 170px;
+  line-height: 45px;
+  height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*lastest-news*/
+#lastest-news {
+  padding: 100px 0;
+}
+
+#lastest-news .our-lastest {
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#lastest-news .our-lastest h2 {
+  font-size: 30px;
+  line-height: 24px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#lastest-news .our-lastest p {
+  margin-bottom: 0;
+  font-size: 16px;
+  margin: 0 0 26px;
+}
+
+#lastest-news .our-lastest .linediv {
+  border: 2px solid #ff3115;
+  width: 100px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+#lastest-news .list-block {
+  overflow: hidden;
+}
+
+#lastest-news .list-block .news-list {
+  overflow: hidden;
+  padding: 15px;
+  border: 1px solid rgba(34, 34, 34, 0.1);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#lastest-news .list-block .news-list .list-img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#lastest-news .list-block .news-list .list-about h5 {
+  font-size: 16px;
+  margin-bottom: 7px;
+}
+
+#lastest-news .list-block .news-list .list-about h5 a {
+  color: #212121;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#lastest-news .list-block .news-list .list-about .list-date {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#lastest-news .list-block .news-list .list-about .list-date i {
+  font-size: 15px;
+  font-weight: 500;
+  display: inline-block;
+  margin-right: 4px;
+  color: #ff3115;
+}
+
+#lastest-news .list-block .news-list .list-about .list-about p {
+  line-height: 1.6;
+}
+
+#lastest-news .other-college {
+  padding: 15px;
+  border: 1px solid rgba(34, 34, 34, 0.1);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+#lastest-news .other-college .picture-clge {
+  margin-bottom: 20px;
+}
+
+#lastest-news .other-college .picture-clge img {
+  width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+
+#lastest-news .other-college .date-clge {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+#lastest-news .other-college .date-clge i {
+  font-size: 15px;
+  font-weight: 500;
+  display: inline-block;
+  margin-right: 4px;
+  color: #ff3115;
+}
+
+#lastest-news .other-college .date-clge span {
+  color: #505050;
+}
+
+#lastest-news .other-college .name-clge {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+#lastest-news .other-college .name-clge a {
+  color: #212121;
+  font-weight: 700;
+}
+
+#lastest-news .other-college .about-clge p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #505050;
+  line-height: 1.7;
+}
+
+#lastest-news .other-college .btn-clge a {
+  display: inline-block;
+  margin-left: auto;
+  padding: 4px 16px;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: #ff3115;
+  color: #fff;
+  line-height: 26px;
+}
+
+#product {
+  background-color: #f9f9f9;
+  padding: 100px 0;
+}
+
+#product .section-name {
+  text-align: center;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+}
+
+#product .section-name h2 {
+  font-size: 30px;
+  line-height: 24px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#product .section-name p {
+  margin-bottom: 0;
+  font-size: 16px;
+  margin: 0 0 26px;
+}
+
+#product .section-name .linediv {
+  border: 2px solid #ff3115;
+  width: 100px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+#product .general h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+#product .general h4 a {
+  color: #212121;
+  margin: 0 0 26px;
+  font-weight: 700;
+}
+
+#product .general span {
+  font-size: 16px;
+  color: #444;
+  display: block;
+  text-align: center;
+}
+
+#product .general .cart-div {
+  margin-top: 20px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+#product .general .cart-div a {
+  display: inline-block;
+  margin-left: auto;
+  padding: 7px 15px;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid #212121;
+  color: #212121;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#product .general .cart-div a:hover {
+  background-color: #ff3115;
+  border-color: #ff3115;
+  color: white;
+}
+
+#what-people {
+  background-image: url("http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/bg/testimonial-bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+#what-people .section-name {
+  text-align: center;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+}
+
+#what-people .section-name h2 {
+  font-size: 30px;
+  line-height: 24px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
+
+#what-people .section-name p {
+  margin-bottom: 0;
+  font-size: 16px;
+  margin: 0 0 26px;
+  color: white;
+}
+
+#what-people .section-name .linediv {
+  border: 2px solid #ff3115;
+  width: 100px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+#what-people .item-header {
+  width: 540px;
+  margin-right: 30px;
+  position: relative;
+}
+
+#what-people .item-header .item-person {
+  padding: 35px;
+  background-color: #ffffff;
+}
+
+#what-people .item-header .item-person .img-person {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 110px;
+  height: 110px;
+  padding: 5px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+#what-people .item-header .item-person .img-person img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#what-people .item-header .item-person .about-person {
+  padding: 42px 0;
+  position: relative;
+}
+
+#what-people .item-header .item-person .about-person .ff-left i {
+  position: absolute;
+  color: red;
+  font-size: 26px;
+  top: 0;
+  left: 0;
+}
+
+#what-people .item-header .item-person .about-person h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #212121;
+  margin: 0 0 26px;
+  font-weight: 700;
+}
+
+#what-people .item-header .item-person .about-person p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 0;
+  margin: 0 0 26px;
+}
+
+#what-people .item-header .item-person .about-person .ff-right i {
+  position: absolute;
+  color: red;
+  font-size: 26px;
+  right: 0;
+}
+
+#partner {
+  padding: 120px 0;
+}
+
+#partner .owl-nav {
+  display: none;
+}
+
+footer {
+  background-image: url("http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/bg/counter-bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+footer .relative-div {
+  position: relative;
+}
+
+footer .relative-div .footer-contact {
+  background: #222;
+  text-align: center;
+  padding: 35px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  margin: -100px auto 0;
+  z-index: 111;
+}
+
+footer .relative-div .footer-contact .contact-info {
+  position: relative;
+}
+
+footer .relative-div .footer-contact .contact-info i {
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: #ff3115;
+}
+
+footer .relative-div .footer-contact .contact-info h4 {
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+footer .relative-div .footer-contact .contact-info p {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+footer .relative-div .footer-contact .bef-aft {
+  position: relative;
+  border-left: 1px solid white;
+}
+
+footer .relative-div .footer-contact .bef-aft::before {
+  content: "";
+  left: 3px;
+  position: absolute;
+  height: calc(100% - 40px);
+  width: 1px;
+  background-color: #fff;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+footer .relative-div .footer-contact .bef-aft::after {
+  content: "";
+  left: -5px;
+  position: absolute;
+  height: calc(100% - 40px);
+  width: 1px;
+  background-color: #fff;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+footer .relative-div .footer-contact .bef-aft i {
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: #ff3115;
+}
+
+footer .relative-div .footer-contact .bef-aft h4 {
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+footer .relative-div .footer-contact .bef-aft p {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+footer #mother-footer {
+  padding-top: 140px;
+}
+
+footer #mother-footer .part-1 img {
+  margin-bottom: 25px;
+}
+
+footer #mother-footer .part-1 p {
+  margin: 0 0 26px;
+  color: #e8e8e8;
+  line-height: 20px;
+}
+
+footer #mother-footer .col-title {
+  margin-bottom: 40px;
+  padding-bottom: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  position: relative;
+  font-weight: 600;
+}
+
+footer #mother-footer .col-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 1px;
+  width: 50px;
+  background-color: #ff3115;
+}
+
+footer #mother-footer .part-2 .team-work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer #mother-footer .part-2 .team-work .team-date {
+  width: 70px;
+  height: 65px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 70px;
+          flex: 0 0 70px;
+  text-align: center;
+  float: left;
+  background-color: #ff3115;
+  color: #ffffff;
+  margin-right: 15px;
+}
+
+footer #mother-footer .part-2 .team-work .team-date span {
+  display: block;
+  margin-top: 10px;
+}
+
+footer #mother-footer .part-2 .team-work .team-about h5 {
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+footer #mother-footer .part-2 .team-work .team-about h5 a {
+  color: #e8e8e8;
+}
+
+footer #mother-footer .part-2 .team-work .team-about span {
+  font-size: 15px;
+  color: #e8e8e8;
+}
+
+footer #mother-footer .part-2 .team-work1 {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(102, 102, 102, 0.5);
+}
+
+footer #mother-footer .sitemap {
+  margin-bottom: 40px;
+  padding-bottom: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  position: relative;
+  font-weight: 600;
+}
+
+footer #mother-footer .sitemap::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 1px;
+  width: 50px;
+  background-color: #ff3115;
+}
+
+footer #mother-footer .sitemap-ul li {
+  width: 50%;
+  float: left;
+  line-height: 33px;
+}
+
+footer #mother-footer .sitemap-ul li a {
+  color: #e8e8e8;
+  display: inline-block;
+  position: relative;
+}
+
+footer #mother-footer .sitemap-ul li i {
+  padding-right: 10px;
+  color: #e8e8e8;
+}
+
+footer #mother-footer .newsletter {
+  margin-bottom: 40px;
+  padding-bottom: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  position: relative;
+  font-weight: 600;
+}
+
+footer #mother-footer .newsletter::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 1px;
+  width: 50px;
+  background-color: #ff3115;
+}
+
+footer #mother-footer .elem-p {
+  margin: 0 0 26px;
+  color: #e8e8e8;
+}
+
+footer #mother-footer .new-form {
+  position: relative;
+}
+
+footer #mother-footer .new-form input {
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #ff3115;
+  color: #ffffff;
+  height: 50px;
+  outline: 0 none;
+  padding: 5px 15px;
+  width: 100%;
+}
+
+footer #mother-footer .new-form button {
+  background: #ff3115;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+footer #mother-footer .footer-icon {
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer #mother-footer .footer-icon ul li {
+  display: inline-block;
+}
+
+footer #mother-footer .footer-icon ul li a {
+  font-size: 13px;
+  display: block;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  line-height: 44px;
+  text-align: center;
+  color: #fff;
+  -webkit-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+footer #footer-end {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 18px 0;
+  margin-top: 35px;
+}
+
+footer #footer-end p {
+  color: #f9f9f9;
+}
+
+footer #footer-end p a {
+  color: #ff3115;
 }
 /*# sourceMappingURL=style.css.map */

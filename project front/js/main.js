@@ -77,6 +77,63 @@ $(function(){
                 items:3
             }
         }
+    });
+
+    $('.third-slider').owlCarousel({
+        autoplay:false,
+        loop:true,
+        margin:30,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            800:{
+              items:3  
+            },
+            1000:{
+                items:4
+            }
+        }
+    })
+
+    $('.four-slider').owlCarousel({
+        autoplay:false,
+        loop:true,
+        margin:30,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:2
+            }
+        }
+    })
+
+    $('.five-slider').owlCarousel({
+        autoplay:true,
+        loop:true,
+        margin:85,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
     })
 
 

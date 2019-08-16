@@ -2,10 +2,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Roboto Condensed", sans-serif;
 }
 body {
   overflow-x: hidden;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 ::selection {
@@ -135,7 +135,6 @@ body {
 /*naviqation*/
 
 #nav-bar {
-  font-family: "Roboto Condensed", sans-serif;
   background: #1a1919;
   transition: 0.3s;
   top: -50px;
@@ -769,7 +768,6 @@ form.example {
       line-height: 24px;
       margin-bottom: 15px;
       text-transform: uppercase;
-      font-family: "Roboto Condensed", sans-serif;
       color: #212121;
       margin: 0 0 26px;
       font-weight: 700;
@@ -827,7 +825,6 @@ form.example {
     h4 {
       font-size: 20px;
       margin-bottom: 7px;
-      font-family: "Roboto Condensed", sans-serif;
       color: #212121 !important;
       margin: 0 0 13px;
       font-weight: 700;
@@ -948,7 +945,6 @@ form.example {
       font-size: 30px;
       line-height: 28px;
       margin-bottom: 25px;
-      font-family: "Roboto Condensed", sans-serif;
       margin: 0 0 26px;
       font-weight: 700;
     }
@@ -983,7 +979,6 @@ form.example {
       font-size: 60px;
       color: #ffffff;
       margin-bottom: 6px;
-      font-family: "Roboto Condensed", sans-serif;
       margin: 0 0 26px;
       font-weight: 700;
     }
@@ -1009,7 +1004,7 @@ form.example {
           min-width: 175px;
           background-color: rgba(34, 34, 34, 0.8);
           transition: 0.3s ease all;
-          .team-name{
+          .team-name {
             color: #fff;
             font-size: 18px;
             font-weight: 700;
@@ -1019,7 +1014,7 @@ form.example {
             border: none;
             text-align: left;
           }
-          span{
+          span {
             color: #fff;
             font-size: 14px;
             font-weight: 400;
@@ -1028,6 +1023,617 @@ form.example {
           }
         }
       }
+    }
+  }
+}
+
+#web-design {
+  background-image: url("http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/bg/cta-bg.jpg");
+  background-size: cover;
+  padding: 100px 0;
+  background-position: center top;
+  background-attachment: fixed;
+  .development {
+    text-align: center;
+    .sec-title {
+      .imp-div {
+        margin-bottom: 50px;
+        text-align: center;
+        h2 {
+          font-size: 30px;
+          line-height: 24px;
+          margin-bottom: 15px;
+          text-transform: uppercase;
+          color: #fff;
+          margin: 0 0 26px;
+          font-weight: 700;
+          font-family: "Roboto Condensed", sans-serif;
+        }
+        p {
+          margin-bottom: 0;
+          font-size: 16px;
+          color: #fff;
+          margin: 0 0 26px;
+        }
+      }
+    }
+    .join-now {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #ff3115;
+      color: #ffffff;
+      font-weight: 500;
+      min-width: 170px;
+      line-height: 45px;
+      height: 45px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+}
+
+/*lastest-news*/
+
+#lastest-news {
+  padding: 100px 0;
+  .our-lastest {
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    h2 {
+      font-size: 30px;
+      line-height: 24px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    p {
+      margin-bottom: 0;
+      font-size: 16px;
+      margin: 0 0 26px;
+    }
+    .linediv {
+      border: 2px solid #ff3115;
+      width: 100px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+  }
+  .list-block {
+    overflow: hidden;
+    .news-list {
+      overflow: hidden;
+      padding: 15px;
+      border: 1px solid rgba(34, 34, 34, 0.1);
+      transition: all 0.3s ease 0s;
+      display: flex;
+      margin-bottom: 30px;
+      .list-img {
+        img {
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+      .list-about {
+        h5 {
+          font-size: 16px;
+          margin-bottom: 7px;
+          a {
+            color: #212121;
+            font-size: 16px;
+            font-weight: 700;
+          }
+        }
+        .list-date {
+          font-size: 14px;
+          font-weight: 500;
+          margin-bottom: 10px;
+          i {
+            font-size: 15px;
+            font-weight: 500;
+            display: inline-block;
+            margin-right: 4px;
+            color: #ff3115;
+          }
+        }
+        .list-about {
+          p {
+            line-height: 1.6;
+          }
+        }
+      }
+    }
+  }
+  .other-college {
+    padding: 15px;
+    border: 1px solid rgba(34, 34, 34, 0.1);
+    transition: all 0.3s ease 0s;
+    .picture-clge {
+      margin-bottom: 20px;
+      img {
+        width: 100%;
+        vertical-align: middle;
+        border-style: none;
+      }
+    }
+    .date-clge {
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 5px;
+      i {
+        font-size: 15px;
+        font-weight: 500;
+        display: inline-block;
+        margin-right: 4px;
+        color: #ff3115;
+      }
+      span {
+        color: #505050;
+      }
+    }
+    .name-clge {
+      font-size: 20px;
+      margin-bottom: 12px;
+      a {
+        color: #212121;
+        font-weight: 700;
+      }
+    }
+    .about-clge {
+      p {
+        margin-bottom: 20px;
+        font-size: 16px;
+        color: #505050;
+        line-height: 1.7;
+      }
+    }
+    .btn-clge {
+      a {
+        display: inline-block;
+        margin-left: auto;
+        padding: 4px 16px;
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: none;
+        background-color: #ff3115;
+        color: #fff;
+        line-height: 26px;
+      }
+    }
+  }
+}
+
+//product//
+#product {
+  background-color: #f9f9f9;
+  padding: 100px 0;
+  .section-name {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    h2 {
+      font-size: 30px;
+      line-height: 24px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    p {
+      margin-bottom: 0;
+      font-size: 16px;
+      margin: 0 0 26px;
+    }
+    .linediv {
+      border: 2px solid #ff3115;
+      width: 100px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+  }
+  .general {
+    h4 {
+      font-size: 20px;
+      margin-bottom: 5px;
+      text-align: center;
+      a {
+        color: #212121;
+        margin: 0 0 26px;
+        font-weight: 700;
+      }
+    }
+    span {
+      font-size: 16px;
+      color: #444;
+      display: block;
+      text-align: center;
+    }
+    .cart-div {
+      margin-top: 20px;
+      padding-bottom: 25px;
+      text-align: center;
+
+      a {
+        display: inline-block;
+        margin-left: auto;
+        padding: 7px 15px;
+        font-size: 15px;
+        font-weight: 500;
+        text-decoration: none;
+        border: 1px solid #212121;
+        color: #212121;
+        transition: all 0.5s;
+        &:hover {
+          background-color: #ff3115;
+          border-color: #ff3115;
+          color: white;
+        }
+      }
+    }
+  }
+}
+//what-people//
+
+#what-people {
+  background-image: url("http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/bg/testimonial-bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 100px 0;
+  .section-name {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    h2 {
+      font-size: 30px;
+      line-height: 24px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: white;
+    }
+    p {
+      margin-bottom: 0;
+      font-size: 16px;
+      margin: 0 0 26px;
+      color: white;
+    }
+    .linediv {
+      border: 2px solid #ff3115;
+      width: 100px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+  }
+
+  .item-header {
+    width: 540px;
+    margin-right: 30px;
+    position: relative;
+    .item-person {
+      padding: 35px;
+      background-color: #ffffff;
+      .img-person {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 110px;
+        height: 110px;
+        padding: 5px;
+        background: #fff;
+        border-radius: 50%;
+        img {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+        }
+      }
+      .about-person {
+        padding: 42px 0;
+        position: relative;
+        .ff-left i {
+          position: absolute;
+          color: red;
+          font-size: 26px;
+          top: 0;
+          left: 0;
+        }
+        h4 {
+          font-size: 20px;
+          margin-bottom: 10px;
+          color: #212121;
+          margin: 0 0 26px;
+          font-weight: 700;
+        }
+        p {
+          font-size: 16px;
+          line-height: 26px;
+          margin-bottom: 0;
+          margin: 0 0 26px;
+        }
+        .ff-right i {
+          position: absolute;
+          color: red;
+          font-size: 26px;
+          right: 0;
+        }
+      }
+    }
+  }
+}
+
+//partner//
+
+#partner {
+  padding: 120px 0;
+  .owl-nav {
+    display: none;
+  }
+}
+
+//footer//
+
+footer {
+    background-image: url("http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/bg/counter-bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+  .relative-div {
+    position: relative;
+
+    .footer-contact {
+      background: #222;
+      text-align: center;
+      padding: 35px;
+      position: absolute;
+      top: 20px;
+      left: 0;
+      right: 0;
+      margin: -100px auto 0;
+      z-index: 111;
+      .contact-info {
+        position: relative;
+
+        i {
+          font-size: 28px;
+          margin-bottom: 12px;
+          color: #ff3115;
+        }
+        h4 {
+          margin-bottom: 10px;
+          color: #ffffff;
+          font-size: 20px;
+          font-weight: 700;
+        }
+        p {
+          color: rgba(255, 255, 255, 0.7);
+          margin-bottom: 0;
+          font-size: 15px;
+          margin: 10px 0;
+        }
+      }
+      .bef-aft {
+        &::before {
+          content: "";
+          left: 3px;
+          position: absolute;
+          height: calc(100% - 40px);
+          width: 1px;
+          background-color: #fff;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+        &::after {
+          content: "";
+          left: -5px;
+          position: absolute;
+          height: calc(100% - 40px);
+          width: 1px;
+          background-color: #fff;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+        position: relative;
+        border-left: 1px solid white;
+        i {
+          font-size: 28px;
+          margin-bottom: 12px;
+          color: #ff3115;
+        }
+        h4 {
+          margin-bottom: 10px;
+          color: #ffffff;
+          font-size: 20px;
+          font-weight: 700;
+        }
+        p {
+          color: rgba(255, 255, 255, 0.7);
+          margin-bottom: 0;
+          font-size: 15px;
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+  #mother-footer {
+    padding-top: 140px;
+    
+    .part-1 {
+      img {
+        margin-bottom: 25px;
+      }
+      p {
+        margin: 0 0 26px;
+        color: #e8e8e8;
+        line-height: 20px;
+      }
+    }
+    .col-title {
+      margin-bottom: 40px;
+      padding-bottom: 5px;
+      color: #ffffff;
+      font-size: 16px;
+      position: relative;
+      font-weight: 600;
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        height: 1px;
+        width: 50px;
+        background-color: #ff3115;
+      }
+    }
+    .part-2 {
+      .team-work {
+        display: flex;
+        .team-date {
+          width: 70px;
+          height: 65px;
+          flex: 0 0 70px;
+          text-align: center;
+          float: left;
+          background-color: #ff3115;
+          color: #ffffff;
+          margin-right: 15px;
+          span {
+            display: block;
+            margin-top: 10px;
+          }
+        }
+        .team-about {
+          h5 {
+            font-size: 15px;
+            line-height: 24px;
+            margin-bottom: 0;
+            font-weight: 400;
+            a {
+              color: #e8e8e8;
+            }
+          }
+          span {
+            font-size: 15px;
+            color: #e8e8e8;
+          }
+        }
+      }
+      .team-work1 {
+        margin-top: 18px;
+        padding-top: 18px;
+        border-top: 1px solid rgba(102, 102, 102, 0.5);
+      }
+    }
+    .sitemap {
+        margin-bottom: 40px;
+        padding-bottom: 5px;
+        color: #ffffff;
+        font-size: 16px;
+        position: relative;
+        font-weight: 600;
+        &::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: -5px;
+          height: 1px;
+          width: 50px;
+          background-color: #ff3115;
+        }
+        
+      }
+      .sitemap-ul{
+        li{
+            width: 50%;
+            float: left;
+            line-height: 33px;
+            a{
+                color: #e8e8e8;
+                display: inline-block;
+                position: relative;
+            }
+            i{
+                padding-right: 10px;
+                color:#e8e8e8;
+            }
+        }
+    }
+    .newsletter{
+        margin-bottom: 40px;
+        padding-bottom: 5px;
+        color: #ffffff;
+        font-size: 16px;
+        position: relative;
+        font-weight: 600;
+        &::after{
+            content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 1px;
+    width: 50px;
+    background-color: #ff3115;
+        }
+    }
+    .elem-p{
+        margin: 0 0 26px;
+        color: #e8e8e8;
+    }
+    .new-form{
+        position: relative;
+        input{
+            background: rgba(0, 0, 0, 0);
+    border: 1px solid #ff3115;
+    color: #ffffff;
+    height: 50px;
+    outline: 0 none;
+    padding: 5px 15px;
+    width: 100%;
+        }
+        button{
+            background: #ff3115;
+            border: none;
+            color: #ffffff;
+            font-size: 18px;
+            height: 100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 60px;
+            transition: all 0.3s ease 0s;
+            cursor: pointer;
+        }
+    }
+    .footer-icon{
+        text-align: center;
+    margin-top: 50px;
+    ul{
+        li{
+            display: inline-block;
+            a{
+                font-size: 13px;
+    display: block;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    line-height: 44px;
+    text-align: center;
+    color: #fff;
+    transition: all .3s ease 0s;
+    background: rgba(255, 255, 255, 0.15);
+            }
+        }
+    }
+    }
+  }
+  #footer-end{
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 18px 0;
+    margin-top: 35px;
+    p{
+        color: #f9f9f9;
+        a{
+            color: #ff3115;
+        }
     }
   }
 }
