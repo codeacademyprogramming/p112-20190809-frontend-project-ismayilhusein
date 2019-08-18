@@ -186,13 +186,27 @@
 
             </div>
 
-
+        </nav>
+        <div class="bg1-modal">
+            <div class="modal1-content">
+                <div class="search">
+                    <form>
+                        <div class="form-group">
+                            <input class="form-control" placeholder="eg: Computer Technology" type="text">
+                        </div>
+                    </form>
+                    <button type="button" class="close5" data-dismiss="modal" aria-label="Close">
+                        <i class="fas fa-times close-i"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
 
         </nav>
 
         <div class="owl-carousel owl-theme main-slider">
 
-            <div class="item">
+            <div class="item first-item">
                 <img
                     src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/slider/home1/slide1.jpg">
                 <div class="container elements">
@@ -203,7 +217,7 @@
                     <a class="get-started" href="#">GET STARTED NOW</a>
                 </div>
             </div>
-            <div class="item"><img
+            <div class="item second-item"><img
                     src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/slider/home1/slide2.jpg">
                 <div class="container elements">
                     <h1> ARE YOU READY TO APPLY ?</h1>
@@ -212,7 +226,7 @@
                     <a class="read-more" href="#">READ MORE</a><a class="get-started" href="">GET STARTED NOW</a>
                 </div>
             </div>
-            <div class="item"><img
+            <div class="item third-item"><img
                     src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/slider/home1/slide3.jpg">
                 <div class="container elements">
                     <h1> ARE YOU READY TO APPLY ?</h1>
@@ -246,7 +260,7 @@
                     <div class="col-3">
                         <div class="service">
                             <div class="back">
-                                <i class="fas fa-american-sign-language-interpreting"></i>
+                                    <i class="fas fa-book-open"></i>
                             </div>
                             <div class="content">
                                 <h4>Trending Courses</h4>
@@ -257,7 +271,7 @@
                     <div class="col-3">
                         <div class="service">
                             <div class="back">
-                                <i class="fas fa-american-sign-language-interpreting"></i>
+                                    <i class="fas fa-user"></i>
                             </div>
                             <div class="content">
                                 <h4>Trending Courses</h4>
@@ -268,7 +282,7 @@
                     <div class="col-3">
                         <div class="service">
                             <div class="back">
-                                <i class="fas fa-american-sign-language-interpreting"></i>
+                                    <i class="fas fa-graduation-cap"></i>
                             </div>
                             <div class="content">
                                 <h4>Trending Courses</h4>
@@ -289,9 +303,10 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="about-img">
+                            <div class="over-div"></div>
                             <img
                                 src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/about/about.jpg">
-                            <a href="https://www.youtube.com/watch?v=3f9CAMoj3Ec"></a>
+                            <a href="https://www.youtube.com/watch?v=3f9CAMoj3Ec"><i class="fas fa-play"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -345,6 +360,7 @@
                                     <a href="">
                                         <i>$450</i>
                                     </a>
+                                    <div class="over-div"><i class="fas fa-link"></i></div>
                                 </div>
                                 <div class="item-body">
                                     <a class="science-a" href="">Science</a>
@@ -390,6 +406,7 @@
                                     <a href="">
                                         <i>$450</i>
                                     </a>
+                                    <div class="over-div"><i class="fas fa-link"></i></div>
                                 </div>
                                 <div class="item-body">
                                     <a class="science-a" href="">Science</a>
@@ -435,6 +452,7 @@
                                     <a href="">
                                         <i>$450</i>
                                     </a>
+                                    <div class="over-div"><i class="fas fa-link"></i></div>
                                 </div>
                                 <div class="item-body">
                                     <a class="science-a" href="">Science</a>
@@ -496,13 +514,21 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="counter-list">
-                                    <h2 class="number-count">60</h2>
+                                    <h2 class="number-count">
+                                        <span class="counter-value" data-count="60">
+                                            0
+                                        </span>
+                                    </h2>
                                     <h4 class="text-count">Teacher</h4>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="counter-list">
-                                    <h2 class="number-count">40</h2>
+                                    <h2 class="number-count">
+                                        <span class="counter-value" data-count="40">
+                                            0
+                                        </span>
+                                    </h2>
                                     <h4 class="text-count">COURSES</h4>
                                 </div>
                             </div>
@@ -511,13 +537,21 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="counter-list">
-                                    <h2 class="number-count">900</h2>
+                                    <h2 class="number-count">
+                                        <span class="counter-value" data-count="900">
+                                            0
+                                        </span>
+                                    </h2>
                                     <h4 class="text-count">STUDENTS</h4>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="counter-list">
-                                    <h2 class="number-count">3675</h2>
+                                    <h2 class="number-count">
+                                        <span class="counter-value" data-count="3675">
+                                            0
+                                        </span>
+                                    </h2>
                                     <h4 class="text-count">SATISFIED CLIENT</h4>
                                 </div>
                             </div>
@@ -540,42 +574,31 @@
                             <div class="item">
                                 <div class="general">
                                     <div class="item-header">
-                                        <img
-                                            src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/events/1.jpg">
+                                        <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/events/1.jpg">
+                                        <div class="over-div"><i class="fas fa-link"></i></div>
 
                                     </div>
-                                    <div class="item-body">
-                                        <a class="science-a" href="">Science</a>
-                                        <h4><a href="#">Civil Engineering</a></h4>
-                                        <div class="review-wrap">
-                                            <ul>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star-half-alt"></i></li>
-                                            </ul>
-                                            <span>22 Reviews</span>
-                                        </div>
-                                        <div class="course-dec mt-3">
-                                            <p>
-                                                Cras ultricies lacus consectetur, consectetur<br />
-                                                scelerisque arcu curabitur
-                                            </p>
-                                        </div>
-                                    </div>
                                     <div class="item-footer">
-                                        <div class="course-time">
-                                            <span class="label">Course time</span>
-                                            <span class="rating">3.5 Years</span>
-                                        </div>
-                                        <div class="course-student">
-                                            <span class="label">Course Student</span>
-                                            <span class="rating">80</span>
-                                        </div>
-                                        <div class="course-duration">
-                                            <span class="label">Class Duration</span>
-                                            <span class="rating">8:30-4:00</span>
+                                        <div class="work-shop">
+                                            <div class="work-date">
+                                                <i class="fas fa-calendar-alt"></i>
+                                                <span>28 June 2017</span>
+                                            </div>
+                                            <h4><a href="">PRACTICE WORKSHOP 2018</a></h4>
+                                            <div class="work-nav">
+                                                <div class="work-pm">
+                                                    <i class="far fa-clock"></i>
+                                                    <span>12.30AM-05.30PM</span>
+                                                </div>
+                                                <div class="work-country">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <span>Venue A, Main Campus</span>
+                                                </div>
+                                            </div>
+                                            <div class="join">
+                                                <a href="">Join Event </a>
+                                                <i class="fas fa-angle-right"></i>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -583,42 +606,31 @@
                             <div class="item">
                                 <div class="general">
                                     <div class="item-header">
-                                        <img
-                                            src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/events/2.jpg">
+                                        <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/events/2.jpg">
+                                        <div class="over-div"><i class="fas fa-link"></i></div>
 
                                     </div>
-                                    <div class="item-body">
-                                        <a class="science-a" href="">Science</a>
-                                        <h4><a href="#">Electrical Engineering</a></h4>
-                                        <div class="review-wrap">
-                                            <ul>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star-half-alt"></i></li>
-                                            </ul>
-                                            <span>25 Reviews</span>
-                                        </div>
-                                        <div class="course-dec mt-3">
-                                            <p>
-                                                Cras ultricies lacus consectetur, consectetur<br />
-                                                scelerisque arcu curabitur
-                                            </p>
-                                        </div>
-                                    </div>
                                     <div class="item-footer">
-                                        <div class="course-time">
-                                            <span class="label">Course time</span>
-                                            <span class="rating">3.5 Years</span>
-                                        </div>
-                                        <div class="course-student">
-                                            <span class="label">Course Student</span>
-                                            <span class="rating">80</span>
-                                        </div>
-                                        <div class="course-duration">
-                                            <span class="label">Class Duration</span>
-                                            <span class="rating">8:30-4:00</span>
+                                        <div class="work-shop">
+                                            <div class="work-date">
+                                                <i class="fas fa-calendar-alt"></i>
+                                                <span>28 June 2017</span>
+                                            </div>
+                                            <h4><a href="">PRACTICE WORKSHOP 2018</a></h4>
+                                            <div class="work-nav">
+                                                <div class="work-pm">
+                                                    <i class="far fa-clock"></i>
+                                                    <span>12.30AM-05.30PM</span>
+                                                </div>
+                                                <div class="work-country">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <span>Venue A, Main Campus</span>
+                                                </div>
+                                            </div>
+                                            <div class="join">
+                                                <a href="">Join Event </a>
+                                                <i class="fas fa-angle-right"></i>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -626,42 +638,31 @@
                             <div class="item">
                                 <div class="general">
                                     <div class="item-header">
-                                        <img
-                                            src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/events/3.jpg">
+                                        <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/events/3.jpg">
+                                        <div class="over-div"><i class="fas fa-link"></i></div>
 
                                     </div>
-                                    <div class="item-body">
-                                        <a class="science-a" href="">Science</a>
-                                        <h4><a href="#">Computer Engineering</a></h4>
-                                        <div class="review-wrap">
-                                            <ul>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star-half-alt"></i></li>
-                                            </ul>
-                                            <span>39 Reviews</span>
-                                        </div>
-                                        <div class="course-dec mt-3">
-                                            <p>
-                                                Cras ultricies lacus consectetur, consectetur<br />
-                                                scelerisque arcu curabitur
-                                            </p>
-                                        </div>
-                                    </div>
                                     <div class="item-footer">
-                                        <div class="course-time">
-                                            <span class="label">Course time</span>
-                                            <span class="rating">3.5 Years</span>
-                                        </div>
-                                        <div class="course-student">
-                                            <span class="label">Course Student</span>
-                                            <span class="rating">80</span>
-                                        </div>
-                                        <div class="course-duration">
-                                            <span class="label">Class Duration</span>
-                                            <span class="rating">8:30-4:00</span>
+                                        <div class="work-shop">
+                                            <div class="work-date">
+                                                <i class="fas fa-calendar-alt"></i>
+                                                <span>28 June 2017</span>
+                                            </div>
+                                            <h4><a href="">PRACTICE WORKSHOP 2018</a></h4>
+                                            <div class="work-nav">
+                                                <div class="work-pm">
+                                                    <i class="far fa-clock"></i>
+                                                    <span>12.30AM-05.30PM</span>
+                                                </div>
+                                                <div class="work-country">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <span>Venue A, Main Campus</span>
+                                                </div>
+                                            </div>
+                                            <div class="join">
+                                                <a href="">Join Event </a>
+                                                <i class="fas fa-angle-right"></i>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -901,7 +902,9 @@
                     </div>
 
                 </div>
-
+                <div class="view">
+                        <a href="">View All</a>
+                    </div>
             </div>
         </section>
         <section id="what-people">
@@ -933,7 +936,23 @@
                     <div class="item-header">
                         <div class="item-person">
                             <div class="img-person">
-                                <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/testimonial/1.jpg"
+                                <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/testimonial/2.jpg"
+                                    alt="">
+                            </div>
+                            <div class="about-person">
+                                <span class="ff-left"><i class="fas fa-quote-left"></i></span>
+                                <h4>Aliana D'suaza</h4>
+                                <p>Etiam non elit nec augue tempor gravida et sed velit. Aliquam tempus eget lorem ut
+                                    malesuada. Phasellus dictum est sed libero posuere dignissim.</p>
+                                <span class="ff-right"><i class="fas fa-quote-right fas-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-header">
+                        <div class="item-person">
+                            <div class="img-person">
+                                <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/testimonial/3.jpg"
                                     alt="">
                             </div>
                             <div class="about-person">
@@ -949,7 +968,7 @@
                     <div class="item-header">
                         <div class="item-person">
                             <div class="img-person">
-                                <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/testimonial/1.jpg"
+                                <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/testimonial/4.jpg"
                                     alt="">
                             </div>
                             <div class="about-person">
@@ -965,23 +984,7 @@
                     <div class="item-header">
                         <div class="item-person">
                             <div class="img-person">
-                                <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/testimonial/1.jpg"
-                                    alt="">
-                            </div>
-                            <div class="about-person">
-                                <span class="ff-left"><i class="fas fa-quote-left"></i></span>
-                                <h4>Luise Henrikes</h4>
-                                <p>Etiam non elit nec augue tempor gravida et sed velit. Aliquam tempus eget lorem ut
-                                    malesuada. Phasellus dictum est sed libero posuere dignissim.</p>
-                                <span class="ff-right"><i class="fas fa-quote-right fas-right"></i></span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item-header">
-                        <div class="item-person">
-                            <div class="img-person">
-                                <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/testimonial/1.jpg"
+                                <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/testimonial/5.jpg"
                                     alt="">
                             </div>
                             <div class="about-person">
@@ -1030,21 +1033,21 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                        <div class=" bef-aft">
-                                
-                                <i class="fas fa-map-marker-alt"></i>
-                                <h4>Address</h4>
-                                <p>503 Old Buffalo Street</p>
-                                <p>Northwest #205, New York-3087</p>
-                            </div>
+                    <div class=" bef-aft">
+
+                        <i class="fas fa-phone-alt"></i>
+                        <h4>Phone Number</h4>
+                        <p>+3453-909-6565</p>
+                        <p>+2390-875-2235</p>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                        <div class=" bef-aft">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <h4>Address</h4>
-                                <p>503 Old Buffalo Street</p>
-                                <p>Northwest #205, New York-3087</p>
-                            </div>
+                    <div class=" bef-aft">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Email Address</h4>
+                        <p>infoname@gmail.com</p>
+                        <p>www.yourname.com</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1053,9 +1056,11 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-12">
                         <div class="part-1">
-                                <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/logo-footer.png" alt="">
-                                <p>We create Premium Html Themes for more than three years. Our team goal is to reunite the elegance of unique.</p>
-                                <p>We create Unique and Easy To Use Flexible Html Themes.</p>
+                            <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/logo-footer.png"
+                                alt="">
+                            <p>We create Premium Html Themes for more than three years. Our team goal is to reunite the
+                                elegance of unique.</p>
+                            <p>We create Unique and Easy To Use Flexible Html Themes.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-12">
@@ -1072,14 +1077,14 @@
                                 </div>
                             </div>
                             <div class="team-work team-work1">
-                                    <div class="team-date">
-                                            <span>28</span>
-                                            <span>june</span>
-                                        </div>
-                                        <div class="team-about">
-                                            <h5><a href="#">I must explain to you how all this idea</a></h5>
-                                            <span>Spoken English</span>
-                                        </div>
+                                <div class="team-date">
+                                    <span>28</span>
+                                    <span>june</span>
+                                </div>
+                                <div class="team-about">
+                                    <h5><a href="#">I must explain to you how all this idea</a></h5>
+                                    <span>Spoken English</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1098,8 +1103,8 @@
                             <li><i class="fas fa-angle-right"></i><a href="">Teachers Details</a></li>
                             <li><i class="fas fa-angle-right"></i><a href="">Contact</a></li>
                             <li><i class="fas fa-angle-right"></i><a href="">Eror 404</a></li>
-                            
-                            
+
+
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-12">
@@ -1139,9 +1144,8 @@
                             src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/logo-white.png"></a>
                 </div>
                 <div class="container">
-                    <div class="">
+                    <div class="modal-write">
                         <div class="panel-group wrap" id="bs-collapse">
-
                             <div class="panel">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
@@ -1150,20 +1154,16 @@
                                         </a>
                                     </h4>
                                     <i class="fas fa-chevron-down"></i>
-
                                 </div>
                                 <div id="one" class="panel-collapse collapse">
-                                    <ul class="-ul">
-                                        <li><a class="first-a" href="#">Home One</a></li>
+                                    <ul class="modal-ul">
+                                        <li><a href="#">Home One</a></li>
                                         <li><a href="#">Home Two</a></li>
                                         <li><a href="#">Home Three</a></li>
                                         <li><a href="#">Home Four</a></li>
-
                                     </ul>
                                 </div>
-
                             </div>
-                            <!-- end of panel -->
 
                             <div class="panel">
                                 <div class="panel-heading">
@@ -1177,13 +1177,16 @@
                                 </div>
                                 <div id="two" class="panel-collapse collapse">
                                     <div class="panel-body">
-                                        Where is the harp on the harpstring, and the red fire glowing? Where is the
-                                        spring and the harvest and the tall corn growing?
+                                        <ul class="modal-ul">
+                                            <li><a href="#">About One</a></li>
+                                            <li><a href="#">About Two</a></li>
+                                            <li><a href="#">About Three</a></li>
+                                            <li><a href="#">About Four</a></li>
+                                        </ul>
                                     </div>
 
                                 </div>
                             </div>
-                            <!-- end of panel -->
 
                             <div class="panel">
                                 <div class="panel-heading">
@@ -1196,14 +1199,22 @@
                                 </div>
                                 <div id="three" class="panel-collapse collapse">
                                     <div class="panel-body">
-                                        The days have gone down in the West behind the hills into shadow. Who shall
-                                        gather the smoke of the deadwood burning, Or behold the flowing years from the
-                                        Sea returning?
+                                        <ul class="modal-ul">
+                                            <li><a href="#">Teacher</a></li>
+                                            <li><a href="#">Teachers Without Filter</a></li>
+                                            <li><a href="#">Teachers Single</a></li>
+                                            <li><a href="#">Gallery One</a></li>
+                                            <li><a href="#">Gallery Two</a></li>
+                                            <li><a href="#">Gallery Three</a></li>
+                                            <li><a href="#">Shop</a></li>
+                                            <li><a href="#">Shop Details</a></li>
+                                            <li><a href="#">Cart</a></li>
+                                            <li><a href="#">Shop</a></li>
+                                            <li><a href="#">Eror 404</a></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-
-                            <!-- end of panel -->
 
                             <div class="panel">
                                 <div class="panel-heading">
@@ -1216,14 +1227,14 @@
                                 </div>
                                 <div id="four" class="panel-collapse collapse">
                                     <div class="panel-body">
-                                        The days have gone down in the West behind the hills into shadow. Who shall
-                                        gather the smoke of the deadwood burning, Or behold the flowing years from the
-                                        Sea returning?
+                                        <ul class="modal-ul">
+                                            <li><a href="#">Courses One</a></li>
+                                            <li><a href="#">Courses Two</a></li>
+                                            <li><a href="#">Courses Details</a></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-
-                            <!-- end of panel -->
 
                             <div class="panel">
                                 <div class="panel-heading">
@@ -1236,14 +1247,13 @@
                                 </div>
                                 <div id="five" class="panel-collapse collapse">
                                     <div class="panel-body">
-                                        The days have gone down in the West behind the hills into shadow. Who shall
-                                        gather the smoke of the deadwood burning, Or behold the flowing years from the
-                                        Sea returning?
+                                        <ul class="modal-ul">
+                                            <li><a href="#">Events</a></li>
+                                            <li><a href="#">Events Details</a></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-
-                            <!-- end of panel -->
 
                             <div class="panel">
                                 <div class="panel-heading">
@@ -1256,13 +1266,14 @@
                                 </div>
                                 <div id="six" class="panel-collapse collapse">
                                     <div class="panel-body">
-                                        The days have gone down in the West behind the hills into shadow. Who shall
-                                        gather the smoke of the deadwood burning, Or behold the flowing years from the
-                                        Sea returning?
+                                        <ul class="modal-ul">
+                                            <li><a href="#">Blog</a></li>
+                                            <li><a href="#">Blog Details</a></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-                            <!-- end of panel -->
+
                             <div class="panel">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
@@ -1283,37 +1294,23 @@
 
                     </div>
                 </div>
-    </nav>
-    <div class="bg1-modal">
-        <div class="modal1-content">
-            <div class="search">
-                <form>
-                    <div class="form-group">
-                        <input class="form-control" placeholder="eg: Computer Technology" type="text">
-                    </div>
-                </form>
-                <button type="button" class="close5" data-dismiss="modal" aria-label="Close">
-                    <i class="fas fa-times close-i"></i>
-                </button>
-            </div>
-        </div>
-    </div>
 
 
 
 
 
 
+                <script
+                    src="https://code.jquery.com/jquery-3.4.1.min.js"
+                    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                    crossorigin="anonymous"></script>
 
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="./js/fontawsome.js"></script>
-    <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-
-    <script src="./js/main.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+                <script src="./js/fontawsome.js"></script>
+                <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+                <!-- <script src="./js/jquery.numscroll.js"></script> -->
+                <script src="./js/main.js"></script>
 </body>
 
 </html>

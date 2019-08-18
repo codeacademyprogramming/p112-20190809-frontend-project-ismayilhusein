@@ -1,6 +1,39 @@
 //first accordion
 $(function(){
 
+    var a = 0;
+    $(window).scroll(function() {
+
+    var oTop = $('#acheivements').offset().top - window.innerHeight;
+    if (a == 0 && $(window).scrollTop() > oTop) {
+        $('.counter-value').each(function() {
+        var $this = $(this),
+            countTo = $this.attr('data-count');
+        $({
+            countNum: $this.text()
+        }).animate({
+            countNum: countTo
+            },
+
+            {
+
+            duration: 1500,
+            easing: 'swing',
+            step: function() {
+                $this.text(Math.floor(this.countNum));
+            },
+            complete: function() {
+                $this.text(this.countNum);
+                //alert('finished');
+            }
+
+            });
+        });
+        a = 1;
+    }
+
+    });
+
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
     
@@ -28,7 +61,7 @@ $(function(){
       });
     }
     //modal!//
-
+  
     $(".barsbtn").click(function(){
         $(".modal-content").css("right", "360px");
 
@@ -56,7 +89,7 @@ $(function(){
         nav:false,
         items:1,
         touchDrag:false,
-        autoplay:false,
+        autoplay:true,
         transitionStyle : "fade",
     });
 
@@ -136,6 +169,10 @@ $(function(){
         }
     })
 
+   // $('.number-count').counterUp({
+      //  delay: 10,
+      //  time: 1000
+   // });
 
  })
 
