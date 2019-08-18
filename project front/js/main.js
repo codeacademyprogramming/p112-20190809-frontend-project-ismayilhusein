@@ -1,37 +1,52 @@
 //first accordion
 $(function(){
 
+    setTimeout(function() {
+        $(".loading-modal").addClass("loading-modal--hidden")
+    }, 2500);
+
+    $(".nav-bars .dropdown").on("click", function () {
+        var self = $(this);
+        if ($(window).width() < 768) {
+            self.find(".dropdown-ul").slideToggle();
+        }
+    });
+
+    $(".barsbtn").on('click', function () {
+        if ($(window).width() < 768) {
+            $(".nav-bars").slideToggle();
+        }
+    })
+
     var a = 0;
     $(window).scroll(function() {
+        var oTop = $('#acheivements').offset().top - window.innerHeight;
+        if (a == 0 && $(window).scrollTop() > oTop) {
+            $('.counter-value').each(function() {
+            var $this = $(this),
+                countTo = $this.attr('data-count');
+            $({
+                countNum: $this.text()
+            }).animate({
+                countNum: countTo
+                },
 
-    var oTop = $('#acheivements').offset().top - window.innerHeight;
-    if (a == 0 && $(window).scrollTop() > oTop) {
-        $('.counter-value').each(function() {
-        var $this = $(this),
-            countTo = $this.attr('data-count');
-        $({
-            countNum: $this.text()
-        }).animate({
-            countNum: countTo
-            },
+                {
 
-            {
+                duration: 1500,
+                easing: 'swing',
+                step: function() {
+                    $this.text(Math.floor(this.countNum));
+                },
+                complete: function() {
+                    $this.text(this.countNum);
+                    //alert('finished');
+                }
 
-            duration: 1500,
-            easing: 'swing',
-            step: function() {
-                $this.text(Math.floor(this.countNum));
-            },
-            complete: function() {
-                $this.text(this.countNum);
-                //alert('finished');
-            }
-
+                });
             });
-        });
-        a = 1;
-    }
-
+            a = 1;
+        }
     });
 
     $(window).scroll(function() {    
@@ -46,20 +61,15 @@ $(function(){
         }
     });
 
-    var acc = document.getElementsByClassName("accordion");
-    var i;
-    
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.css.display === "block") {
-          panel.style.display = "none";
-        } else {
-          panel.style.display = "block";
-        }
-      });
-    }
+    $(".accordion li").on('click', function () {
+        const otherElements = $(this).parent().find("li").not(this);
+        otherElements.find(".accordion-body").slideUp("fast");
+        otherElements.find(".accordion-header").removeClass("active-header");
+
+        $(this).find(".accordion-header").toggleClass("active-header")
+        $(this).find(".accordion-body").slideToggle("fast");
+    });
+
     //modal!//
   
     $(".barsbtn").click(function(){
@@ -95,18 +105,19 @@ $(function(){
 
 
     $('.second-slider').owlCarousel({
-        autoplay:false,
         loop:true,
+        margin:0,
+        navSpeed:800,
         margin:30,
         nav:true,
-        responsive:{
-            0:{
+        responsive: {
+            0: {
                 items:1
             },
-            600:{
+            768: {
                 items:2
             },
-            1000:{
+            992: {
                 items:3
             }
         }
@@ -158,7 +169,7 @@ $(function(){
         nav:true,
         responsive:{
             0:{
-                items:1
+                items:2
             },
             600:{
                 items:3
@@ -168,38 +179,6 @@ $(function(){
             }
         }
     })
-
-   // $('.number-count').counterUp({
-      //  delay: 10,
-      //  time: 1000
-   // });
-
  })
 
-
-//     //accordion about us//
-// var accordion = function(){
-//     var data = $('.accordion').attr('data-accordion')
-    
-//     $('.accordion-header').on('click', function(){
-//       // все что ниже можете удалить
-//       // if (data === 'close'){
-//       //   alert();
-//       //   $('.accordion-body').slideUp()
-//       //   if ($(this).hasClass('active')){
-//       //     $(this).toggleClass('active')
-//       //   }else{
-//       //     $('.accordion-header').removeClass('active')
-//       //     $(this).toggleClass('active')
-//       //   }
-//       // } 
-//       // else {
-//       //   $(this).toggleClass('active')
-//       // }
-//       //все что выше можете удалить
-  
-//       $(this).next('.accordion-body').not(':animated').slideToggle()
-//     })
-//   }
-  
-//   accordion();
+     

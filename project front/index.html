@@ -17,15 +17,18 @@
 </head>
 
 <body>
+    <div class="loading-modal">
+        <img src="./css/pics/loading.svg" />
+    </div>
     <header>
         <div class="apply">
             <div class="container">
                 <div class="intro">
-                    <div class="d-flex ml-3">
+                    <div class="d-flex ml-3 welcome-head">
                         <i class="fas fa-university iconuni"></i>
                         <p class="element-p">Welcome to Edulearn</p>
                     </div>
-                    <div class="d-flex">
+                    <div class="d-flex icons-head">
                         <div class="icons">
                             <i class="fab fa-facebook-f fb"></i>
                             <i class="fab fa-twitter tw"></i>
@@ -41,7 +44,7 @@
         <div class="edulearn">
             <div class="container">
                 <div class="row">
-                    <div class="col-4 ">
+                    <div class="col-4 rus">
                         <div class="d-flex">
                             <i class="fas fa-envelope-open-text mail mx-3"></i>
                             <div>
@@ -50,10 +53,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 d-flex align-items-start justify-content-center">
+                    <div class="col-md-4 col-12 d-flex align-items-start justify-content-center et">
                         <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/logo.png">
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 is">
                         <div class="d-flex callus">
                             <i class="fas fa-phone-alt icon-volume"></i>
                             <div>
@@ -73,9 +76,9 @@
             <div class="container">
 
                 <div class="navpart">
-                    <ul class="d-flex nav-bars">
+                    <ul class="nav-bars">
                         <li class="dropdown">
-                            <a class="first-a" href="#">HOME</a>
+                            <a class="first-a">HOME</a>
                             <ul class="dropdown-ul">
                                 <li><a class="first-a" href="#">Home One</a></li>
                                 <li><a href="#">Home Two</a></li>
@@ -86,7 +89,7 @@
                             </ul>
 
                         </li>
-                        <li class="dropdown"><a href="">ABOUT US</a>
+                        <li class="dropdown"><a>ABOUT US</a>
                             <ul class="dropdown-ul">
                                 <li><a href="#">About One</a></li>
                                 <li><a href="#">About Two</a></li>
@@ -94,7 +97,7 @@
                             </ul>
 
                         </li>
-                        <li class="dropdown-mega"><a href="">MEGA</a>
+                        <li class="dropdown-mega"><a>MEGA</a>
                             <div class="mega-menu">
                                 <div class="inner-mega-menu">
                                     <p>About One</p>
@@ -122,7 +125,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="dropdown"><a href="">COURSES</a>
+                        <li class="dropdown"><a>COURSES</a>
                             <ul class="dropdown-ul">
                                 <li><a href="#">Courses One</a></li>
                                 <li><a href="#">Courses Two</a></li>
@@ -130,7 +133,7 @@
                                 <li><a href="#">Courses Details 2</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown"><a href="">EVENTS</a>
+                        <li class="dropdown"><a>EVENTS</a>
                             <ul class="dropdown-ul">
                                 <li><a href="#">Events</a></li>
                                 <li><a href="#">Events details</a></li>
@@ -139,7 +142,7 @@
 
                             </ul>
                         </li>
-                        <li class="dropdown"><a href="">PAGES</a>
+                        <li class="dropdown"><a>PAGES</a>
                             <ul class="dropdown-ul">
                                 <li class="dropdown-change"><a href="#">Teachers</a>
                                     <ul class="dropdown-ul-change">
@@ -166,18 +169,18 @@
                                 <li><a href="#">Error 404</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown"><a href="">BLOG</a>
+                        <li class="dropdown"><a>BLOG</a>
                             <ul class="dropdown-ul">
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="#">Blog Details</a></li>
 
                             </ul>
                         </li>
-                        <li><a href="index.html">CONTACT</a></li>
+                        <li class="xs-padding"><a href="index.html">CONTACT</a></li>
                     </ul>
-                    <div class="d-flex">
+                    <div class="d-flex action-buttons">
                         <a href="#" class="searchbtn"><i class="fas fa-search "></i></a>
-                        <a href="#" class="barsbtn"><i class="fas fa-bars "></i></a>
+                        <a class="barsbtn"><i class="fas fa-bars "></i><span>MENU</span></a>
 
 
                     </div>
@@ -244,7 +247,7 @@
         <section id="services">
             <div class="container">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-md-3 col-12">
                         <div class="service">
                             <div class="back">
                                 <i class="fas fa-american-sign-language-interpreting"></i>
@@ -257,10 +260,10 @@
 
 
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3 col-12">
                         <div class="service">
                             <div class="back">
-                                    <i class="fas fa-book-open"></i>
+                                <i class="fas fa-book-open"></i>
                             </div>
                             <div class="content">
                                 <h4>Trending Courses</h4>
@@ -268,10 +271,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3 col-12">
                         <div class="service">
                             <div class="back">
-                                    <i class="fas fa-user"></i>
+                                <i class="fas fa-user"></i>
                             </div>
                             <div class="content">
                                 <h4>Trending Courses</h4>
@@ -279,10 +282,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3 col-12">
                         <div class="service">
                             <div class="back">
-                                    <i class="fas fa-graduation-cap"></i>
+                                <i class="fas fa-graduation-cap"></i>
                             </div>
                             <div class="content">
                                 <h4>Trending Courses</h4>
@@ -574,7 +577,8 @@
                             <div class="item">
                                 <div class="general">
                                     <div class="item-header">
-                                        <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/events/1.jpg">
+                                        <img
+                                            src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/events/1.jpg">
                                         <div class="over-div"><i class="fas fa-link"></i></div>
 
                                     </div>
@@ -606,7 +610,8 @@
                             <div class="item">
                                 <div class="general">
                                     <div class="item-header">
-                                        <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/events/2.jpg">
+                                        <img
+                                            src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/events/2.jpg">
                                         <div class="over-div"><i class="fas fa-link"></i></div>
 
                                     </div>
@@ -638,7 +643,8 @@
                             <div class="item">
                                 <div class="general">
                                     <div class="item-header">
-                                        <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/events/3.jpg">
+                                        <img
+                                            src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/events/3.jpg">
                                         <div class="over-div"><i class="fas fa-link"></i></div>
 
                                     </div>
@@ -691,6 +697,23 @@
                                             <h3 class="team-name">Mr.Mahabub Alam</h3>
                                             <span class="span-name">Asistant.Professor</span>
                                         </div>
+
+                                    </div>
+                                </div>
+                                <div class="line-div text-center">
+                                    <div class="professor">
+                                        <div class="centry">
+                                        <h4>Mr.Mahabub Alam</h4>
+                                        <p>Asistant Professor</p>
+                                        <span></span>
+                                        <p class="pelem">Entrusted with planning, implementation and evaluation.</p>
+                                        <div class="line-icons">
+                                            <a class="icons-line" href=""><i class="fab fa-facebook-f"></i></a>
+                                            <a class="icons-line" href=""><i class="fab fa-google-plus-g"></i></a>
+                                            <a class="icons-line" href=""><i class="fab fa-twitter"></i></a>
+                                            <a class="icons-line" href=""><i class="fab fa-pinterest-p"></i></a>
+                                        </div>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
@@ -704,6 +727,24 @@
                                             <span class="span-name">Vice Chancellor</span>
                                         </div>
                                     </div>
+                                    <div class="line-div text-center">
+                                        <div class="professor">
+                                            <div class="centry">
+                                                <h4>Mr.Mahabub Alam</h4>
+                                                <p>Asistant Professor</p>
+                                                <span></span>
+                                                <p class="pelem">Entrusted with planning, implementation and evaluation.
+                                                </p>
+                                                <div class="line-icons">
+                                                    <a class="icons-line" href=""><i class="fab fa-facebook-f"></i></a>
+                                                    <a class="icons-line" href=""><i
+                                                            class="fab fa-google-plus-g"></i></a>
+                                                    <a class="icons-line" href=""><i class="fab fa-twitter"></i></a>
+                                                    <a class="icons-line" href=""><i class="fab fa-pinterest-p"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="item">
@@ -714,6 +755,24 @@
                                         <div class="text-teamimg">
                                             <h3 class="team-name">Luyes Figery</h3>
                                             <span class="span-name">A.Professor</span>
+                                        </div>
+                                    </div>
+                                    <div class="line-div text-center">
+                                        <div class="professor">
+                                            <div class="centry">
+                                                <h4>Mr.Mahabub Alam</h4>
+                                                <p>Asistant Professor</p>
+                                                <span></span>
+                                                <p class="pelem">Entrusted with planning, implementation and evaluation.
+                                                </p>
+                                                <div class="line-icons">
+                                                    <a class="icons-line" href=""><i class="fab fa-facebook-f"></i></a>
+                                                    <a class="icons-line" href=""><i
+                                                            class="fab fa-google-plus-g"></i></a>
+                                                    <a class="icons-line" href=""><i class="fab fa-twitter"></i></a>
+                                                    <a class="icons-line" href=""><i class="fab fa-pinterest-p"></i></a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -903,8 +962,8 @@
 
                 </div>
                 <div class="view">
-                        <a href="">View All</a>
-                    </div>
+                    <a href="">View All</a>
+                </div>
             </div>
         </section>
         <section id="what-people">
@@ -918,11 +977,11 @@
 
 
                     <div class="item-header">
+                        <div class="img-person">
+                            <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/testimonial/1.jpg"
+                                alt="">
+                        </div>
                         <div class="item-person">
-                            <div class="img-person">
-                                <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/testimonial/1.jpg"
-                                    alt="">
-                            </div>
                             <div class="about-person">
                                 <span class="ff-left"><i class="fas fa-quote-left"></i></span>
                                 <h4>Luise Henrikes</h4>
@@ -934,11 +993,11 @@
                     </div>
 
                     <div class="item-header">
+                        <div class="img-person">
+                            <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/testimonial/2.jpg"
+                                alt="">
+                        </div>
                         <div class="item-person">
-                            <div class="img-person">
-                                <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/testimonial/2.jpg"
-                                    alt="">
-                            </div>
                             <div class="about-person">
                                 <span class="ff-left"><i class="fas fa-quote-left"></i></span>
                                 <h4>Aliana D'suaza</h4>
@@ -950,11 +1009,11 @@
                     </div>
 
                     <div class="item-header">
+                        <div class="img-person">
+                            <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/testimonial/3.jpg"
+                                alt="">
+                        </div>
                         <div class="item-person">
-                            <div class="img-person">
-                                <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/testimonial/3.jpg"
-                                    alt="">
-                            </div>
                             <div class="about-person">
                                 <span class="ff-left"><i class="fas fa-quote-left"></i></span>
                                 <h4>Luise Henrikes</h4>
@@ -966,11 +1025,11 @@
                     </div>
 
                     <div class="item-header">
+                        <div class="img-person">
+                            <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/testimonial/4.jpg"
+                                alt="">
+                        </div>
                         <div class="item-person">
-                            <div class="img-person">
-                                <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/testimonial/4.jpg"
-                                    alt="">
-                            </div>
                             <div class="about-person">
                                 <span class="ff-left"><i class="fas fa-quote-left"></i></span>
                                 <h4>Luise Henrikes</h4>
@@ -982,11 +1041,11 @@
                     </div>
 
                     <div class="item-header">
+                        <div class="img-person">
+                            <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/testimonial/5.jpg"
+                                alt="">
+                        </div>
                         <div class="item-person">
-                            <div class="img-person">
-                                <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/testimonial/5.jpg"
-                                    alt="">
-                            </div>
                             <div class="about-person">
                                 <span class="ff-left"><i class="fas fa-quote-left"></i></span>
                                 <h4>Luise Henrikes</h4>
@@ -1300,16 +1359,13 @@
 
 
 
-                <script
-                    src="https://code.jquery.com/jquery-3.4.1.min.js"
-                    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-                    crossorigin="anonymous"></script>
+                <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+                    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
                 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
                 <script src="./js/fontawsome.js"></script>
                 <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-                <!-- <script src="./js/jquery.numscroll.js"></script> -->
                 <script src="./js/main.js"></script>
 </body>
 
